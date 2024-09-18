@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #F5F8FF;
+  --secondary: #FF6767;
+  --tertiary: #F8F8F8;
+  --accent: #F24E1E;
+  --outline: #A1A3AB;
+
+  --on-primary: #000000;
+  --on-primary-secondary: #747474;
+  --on-secondary: #FFFFFF;
+  --on-tertiary: #000000;
+  --on-accent: #FFFFFF;
+
+  --date: #3ABEFF;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* TODO */
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
